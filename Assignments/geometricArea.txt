@@ -1,0 +1,15 @@
+Program Goal:
+The goal of this program is to calculate the area of a polygon. 
+
+
+Design Statement:
+The program asks the user the number of sides in the polygon and the length of the number of sides. It then calculates the area and outputs the result to the console. It uses functions for calculating different polygon areas. 
+
+
+Implementation:
+The code in this program is modularized. The program has three files
+1- Main app that contains the function headers and function definitions.
+2- A header file that contains all the header files. 
+3- A main_test app that contains the main() function. 
+
+The function prototypes are created before and are called inside the main function, they then are being defined after the main function and does all the calculations. 

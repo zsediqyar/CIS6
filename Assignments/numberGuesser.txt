@@ -1,0 +1,20 @@
+Program Goal:
+The goal of this program is to ask the user for a number to guess and then based on estimation and user response finds the exact guessed number.
+
+
+
+Design Statement:
+The user guesses a number between 1 and 100. The program will divide that into to and will ask if that is the guessed number. If, not the user will enter either higher than the divided number of lower. The program will get the lower remaining number and divides to 2 again, and will continue doing so until the number is found. 
+
+
+
+Implementation:
+The program is implemented in the following order
+1- Pre processor directives
+2- Main function initiation
+3- CONST variable declarations for range of numbers
+4- Normal varibales are delcared
+*** GOTO is created ***
+5- The program throws the mid point of MAX to MIN and asks if that is the number. Inside a while loop
+6- The program checks the user response in three IF CONDITIONALS
+7- The program asks if the user wants to replay, and if yes, goes to the RESTART goto.

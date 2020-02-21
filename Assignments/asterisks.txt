@@ -1,0 +1,21 @@
+Design Goal Statement:
+The program is intended to run and promptly ask the user if he/she wants to print a certain number of asterisks in the console. The program will then print the amount of asterisks based on the user's input and will continue to ask the user until he/she responds no, and then it exits.
+
+
+
+Organization Design Statement:
+The program contains the headers, the main function inside which are three variables which asks for number of asterisks, the user response if he/she wants to play again and holds the * character. The program also has a GOTO which restarts the question session based on the user's reply. 
+
+
+Implementation Discussion:
+The below are the steps in the implementation.
+- including the libraries/pre-proc. directices
+- using namespace standard
+- initiating the main function
+- declaring the variables
+- initiate a goto
+- asking the user for an input number
+- loop through the object and print the same number of * user asked
+- ask the user if he wants to replay
+- based on his response do certain actions and determine the user's response by if conditionals. 
+

@@ -1,0 +1,16 @@
+Program Goal:
+The goal of the Count3s program is to open a binary file and read all the binary code that otherwise translates to the integer 3 in human read language. 
+
+
+Design Statement:
+The program checks the pre-processor directives, initiates the main function, creates a filestream, opens the file and reads the data and prints to the console. 
+
+
+Implementation:
+After initiating the main function, declaring variables and creating a file stream. 
+1. It creates an inbound stream object
+2. Opens the file in the stream
+3. Checks the file for threes in binary format
+4. Converts the binary 3 to integer
+5. Loops through the end of the file and counts all the 3s.
+6. Displays the number of 3s which is saved in the variable. 

@@ -1,0 +1,10 @@
+Program Goal:
+The goal of the "Hello World" program is to run a simple program that prints a couple of strings/texts in the console for the user.
+
+
+Design Statement:
+The has a header which contains the pre-processor directives at the top, the the namespacing standard after it, then initializes the main function. 
+
+
+Implementation:
+After calling the pre-processor, the main function initialization comes to place which then runs the command "cout" which will print the text inside the console. 

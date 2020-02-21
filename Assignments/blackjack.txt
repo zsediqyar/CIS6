@@ -1,0 +1,23 @@
+Design Goal Statement:
+This program is designed to play Blackjack with the user and generate random cards to complete the count. It will randomly generate numbers and will determine the win/lost/bust/blackjack status based on the sum of the randomly generated numbers.
+
+
+
+Organization Design Statement:
+The program uses certain new libraries and headers. We include the headers, then initiate the namespace standard, then main function, afterward declare constant variables and also a random number generator which takes the unix time from the system. It does math operations on numbers and then gives the user response based on the total of cards.
+
+
+Implementation Discussion:
+The below are the steps in the implementation.
+- including the libraries/pre-proc. directices
+- using namespace standard
+- initiating the main function
+- declaring the variables
+- initiating the random number generator which is seeded from the system time in unix format.
+- roll cards and display them along with the sum of it to the user
+- ask if the user wants another card and loop through this question until the cap is reached
+- take the new card and add it to the total
+- keep asking for cards until certain threshold is reached
+- respond to user based on the final total
+- ask if the user wants to replay
+- based on users reply either use the defined GOTO or exit the program
